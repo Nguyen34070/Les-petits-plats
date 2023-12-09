@@ -1,0 +1,46 @@
+/* Header */
+header {
+    background-image: url(../assets/background/lampos.png);
+    height: 750px;
+    width: 100%;
+    background-size: cover;
+}
+
+.logoHeader {
+    padding: 35px;
+}
+
+.slogan {
+    position: relative;
+    left: 30%;
+    width: 35%;
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 900;
+    font-size: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: yellow;
+    padding-top: 70px;
+}
+
+.valeur {
+    width: 60%;
+    height: 60px;
+    margin: 30px 20% 30px 20%;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.bouton {
+    position: relative;
+    right: 23%;
+    width: 45px;
+    height: 45px;
+    border-radius: 10px;
+
+}
+
+.searchBar {
+    display: flex;
+    align-items: center;
+}
