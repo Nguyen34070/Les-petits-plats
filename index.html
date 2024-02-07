@@ -30,7 +30,54 @@
     </header>
     <!-- Main -->
     <main>
-        <div class="section_recipe"></div>
+        <section class="section_filters">
+            <div class="section_filters__filters">
+                <div id="recipe" class="dropdown"></div>
+                <button class="dropdowwn__btn">
+                    <p>Ingrédients</p>
+                    <p class="dropdown__arrow"></p>
+                </button>
+                <div class="dropdown__contain">
+                    <div class="dropdown__search">
+                        <input type="search">
+                        <p class="dropdown__icon"></p>
+                    </div>
+                    <ul class="dropdown__selected"></ul>
+                    <ul class="dropdown__option"></ul>
+                </div>
+
+                <div id="appliance" class="dropdown">
+                    <button class="dropdown__btn">
+                        <p>Appareils</p>
+                        <p class="dropdown__arrow"></p>
+                    </button>
+                    <div class="dropdown__contain">
+                        <div class="dropdown__search">
+                            <input type="search">
+                            <p class="dropdown__icon"></p>
+                        </div>
+                        <ul class="dropdown__selected"></ul>
+                        <ul class="dropdown__option"></ul>
+                    </div>
+                </div>
+
+                <div id="ustensils" class="dropdown">
+                    <button class="dropdown__btn">
+                        <p>Ustensils</p>
+                        <p class="dropdown__arrow"></p>
+                    </button>
+                    <div class="dropdown__contain">
+                        <div class="dropdown__search">
+                            <input type="search">
+                            <p class="dropdown__icon"></p>
+                        </div>
+                        <ul class="dropdown__selected"></ul>
+                        <ul class="dropdown__option"></ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="recipes_section"></section>
     </main>
     <!-- Script -->
     <script src="script/pages/homePage.js" type="module"></script>
